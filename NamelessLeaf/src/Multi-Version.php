@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace multi-version;
+namespace NamelessLeaf\Multi-Version;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;

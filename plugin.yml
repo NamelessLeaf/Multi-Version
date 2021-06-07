@@ -1,7 +1,7 @@
-name: MultiProtocol
+name: Multi-Version
 api: 3.0.0
 version: 1.2
-main: multiprotocol\MultiProtocol
-description: Allows players with different versions to join.
-website: https://github.com/IceCruelStuff/MultiProtocol
+main: NamelessLeaf\Creative\Main
+description: Allows players with different versions of mcpe or mcbe to join
+website: github.com/NamelessLeaf/Multi-Version/edit/main
 load: STARTUP

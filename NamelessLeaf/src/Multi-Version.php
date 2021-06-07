@@ -12,9 +12,8 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
 /**
- * Class MultiProtocol
- * @package multiprotocol
- * 
+ * Made by Namelessleaf
+ * Credit to multiprotocol 
  */
 class Main extends PluginBase implements Listener {
 

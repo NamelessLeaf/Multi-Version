@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace multiprotocol;
+namespace multi-version;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
@@ -16,7 +16,7 @@ use pocketmine\utils\TextFormat;
  * @package multiprotocol
  * 
  */
-class MultiProtocol extends PluginBase implements Listener {
+class Main extends PluginBase implements Listener {
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);

@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener {
             $player->kick(TextFormat::RED . 'Your Minecraft Version Isnt Compatible With This Server' . $currentProtocol);
         } elseif ($pk->protocol > $currentProtocol) {
             $pk->protocol = $currentProtocol;
-            $this->getLogger()->alert(TextFormat::GOLD . $player->getName() . "'s protocol changed to " . $currentProtocol);
+            $this->getLogger()->alert(TextFormat::GOLD . $player->getName() . "'s protocol version changed to " . $currentProtocol);
         }
     }
 
